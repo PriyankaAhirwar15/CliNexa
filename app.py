@@ -10,6 +10,23 @@ import numpy as np
 from PIL import Image
 import gradio as gr
 
+# ZeroGPU (HF Spaces) compatibility — import spaces if available
+try:
+    import spaces
+    ON_ZERO_GPU = True
+except ImportError:
+    # Not on ZeroGPU — create a no-op decorator
+    class _FakeSpaces:
+        @staticmethod
+        def GPU(fn=None, duration=60):
+            if fn is not None:
+                return fn
+            def decorator(f):
+                return f
+            return decorator
+    spaces = _FakeSpaces()
+    ON_ZERO_GPU = False
+
 # Ensure project root in sys.path
 PROJECT_ROOT = Path(__file__).resolve().parent
 if str(PROJECT_ROOT) not in sys.path:
@@ -44,6 +61,7 @@ MANDATORY_DISCLAIMER = (
 # -------------------------------------------------------------
 # Module 1 & 6: Health Profile, Deep Risk DNN, & SHAP Explainability
 # -------------------------------------------------------------
+@spaces.GPU(duration=60)
 def analyze_health_profile(age, gender, height_cm, weight_kg, sys_bp, dia_bp, activity_level, sleep_hrs, water_liters, smoking_status, alcohol_status):
     bmi_res = calculate_bmi(height_cm, weight_kg)
     energy_res = calculate_bmr_and_tdee(int(age), gender, height_cm, weight_kg, activity_level)
@@ -385,4 +403,13 @@ with gr.Blocks(title="CliNexa — AI Healthcare Intelligence Platform", theme=gr
     gr.Markdown("Built by **Priyanka Ahirwar** • Released under MIT License • Educational & Clinical Decision Support Demonstration")
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
+    # On HF Spaces SPACE_ID is always set — let Gradio manage networking
+    if os.environ.get("SPACE_ID"):
+        demo.launch()
+    else:
+        demo.launch(
+            server_name="0.0.0.0",
+            server_port=int(os.environ.get("PORT", 7860)),
+            share=False,
+        )
+
