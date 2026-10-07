@@ -3,9 +3,9 @@ title: CliNexa AI Healthcare Intelligence
 emoji: ⚕️
 colorFrom: blue
 colorTo: teal
-sdk: streamlit
-sdk_version: 1.30.0
-app_file: app/main.py
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
 pinned: false
 license: mit
 ---
