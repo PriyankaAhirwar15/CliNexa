@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: clinexa-healthcare
+    env: python
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: streamlit run app/main.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.11
+      - key: HOST
+        value: 0.0.0.0

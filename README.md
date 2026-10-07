@@ -1,3 +1,15 @@
+---
+title: CliNexa AI Healthcare Intelligence
+emoji: ⚕️
+colorFrom: blue
+colorTo: teal
+sdk: streamlit
+sdk_version: 1.30.0
+app_file: app/main.py
+pinned: false
+license: mit
+---
+
 # CliNexa — AI-Powered Healthcare Intelligence Platform
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
