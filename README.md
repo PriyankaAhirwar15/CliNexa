@@ -24,15 +24,9 @@ Modern healthcare consumers and clinicians face an unprecedented volume of unstr
 
 ---
 
-## 2. Model Architecture & Anti-Duplication Compliance
-
-> ⚠️ **STRICT MODEL SELECTION DIRECTIVE**  
-> To guarantee architectural novelty and avoid overlap with legacy tabular baselines (such as FraudShield AI), CliNexa **DOES NOT UTILIZE**:
-> - ❌ Logistic Regression
-> - ❌ Random Forest
-> - ❌ XGBoost  
+## 2. Model Architecture   
 >
-> Instead, CliNexa employs deep neural architectures, convolutional networks, attention transformers, and metric-space vector retrieval:
+> CliNexa employs deep neural architectures, convolutional networks, attention transformers, and metric-space vector retrieval:
 > - ✅ **Deep Clinical Risk Classifier:** PyTorch Multi-Layer Perceptron (MLP) with Batch Normalization, Dropout, and Multi-Head Risk outputs.
 > - ✅ **Medical Computer Vision:** ResNet-50 Deep Residual Convolutional Neural Network with Transfer Learning.
 > - ✅ **Biomedical NLP:** ClinicalBERT / DistilBERT tokenization and entity extraction.
@@ -228,71 +222,10 @@ pytest tests/ -v
 ```
 All 15 comprehensive unit tests across nutrition, vision, risk DNN, NLP, and RAG execute in under 20 seconds.
 
----
-
-## 9. Interview-Friendly Technical Guide
-
-This section is prepared for technical interviews, system design discussions, and code walkthroughs:
-
-### 1. Healthcare Problem
-Healthcare data is fragmented across medical reports, free-text symptoms, and imaging scans. Patients struggle to understand lab results and often receive conflicting nutrition advice, while generic AI tools risk making dangerous, ungrounded medical diagnoses. CliNexa provides transparent, explainable decision support grounded in clinical literature without overstepping into clinical diagnosis.
-
-### 2. Architectural Solution
-CliNexa uses a specialized multi-modal architecture:
-- Deep PyTorch Neural Network for risk classification.
-- Biomedical Transformers for medical NLP.
-- ResNet-50 Transfer Learning for chest radiographs.
-- SHAP and Grad-CAM for dual explainability.
-- FAISS RAG for grounded medical knowledge retrieval.
-- Mifflin-St Jeor engine for nutrition and meal planning.
-
-### 3. Why BioBERT / ClinicalBERT was selected over general LLMs
-General LLMs frequently hallucinate clinical terminology and lack calibration on medical ontologies. ClinicalBERT was pretrained on large biomedical corpuses (MIMIC-III and PubMed), making its token embeddings naturally aware of clinical terms, laboratory markers, and pharmacological classifications.
-
-### 4. Why ResNet-50 was selected
-ResNet-50's residual skip connections solve the vanishing gradient problem, allowing deep hierarchical feature extraction. Its final bottleneck block (`layer4`) preserves spatial dimensions suitable for gradient-weighted class activation mapping (Grad-CAM), making the visual attention of the model transparent.
-
-### 5. Why RAG was used instead of unconstrained Generative AI
-Allowing an LLM to generate healthcare advice without constraints invites hallucinated drug dosages and inaccurate facts. RAG forces the generation process to retrieve validated literature from WHO, AHA, and CDC before synthesizing a response, ensuring all answers cite credible clinical sources.
-
-### 6. Why SHAP & Grad-CAM are vital for healthcare AI
-Healthcare AI cannot be a black box. Clinicians and patients need to know *why* a model made an assessment. SHAP provides feature-level attribution showing which factors increased or decreased estimated risk. Grad-CAM provides a visual heatmap highlighting the specific radiological regions influencing the image classifier.
-
-### 7. How the Nutrition Recommendation Engine works
-The nutrition assistant uses the Mifflin-St Jeor equation to compute Basal Metabolic Rate (BMR) and adjusts for physical activity to calculate Total Daily Energy Expenditure (TDEE). It then applies disease-specific macronutrient adjustments (e.g., DASH guidelines for hypertension, low-glycemic high-soluble-fiber targets for prediabetes) and builds 7-day meal plans adhering to dietary preferences.
-
-### 8. How CliNexa prevents unsafe medical claims
-- **Safe vocabulary:** Uses phrasing such as *"Possible health concern"*, *"Relevant health category"*, and *"Further medical evaluation may be appropriate"*. It never makes definitive claims like *"You have diabetes"*.
-- **Mandatory Disclaimers:** Visible disclaimer banners on every page.
-- **Medication guardrail:** Explicit warnings against altering or discontinuing prescribed medication without physician approval.
-- **Confidence disclosures:** Research and demonstration notices on image classification outputs.
-
-### 9. Limitations
-- Demonstration and educational scope: The models are trained for demonstration and academic evaluation, not for clinical diagnostic clearance.
-- Scanned documents: PDFs consisting entirely of scanned raster images without OCR layers require optical character recognition preprocessing.
-- Individual biological variability: Nutrition guidelines reflect population-level guidelines and do not replace personalized clinical nutrition therapy.
 
 ---
 
-## 10. Deployment Instructions
-
-### Docker Deployment
-```bash
-# Build Docker image
-docker build -t clinexa-healthcare .
-
-# Run container on port 8501
-docker run -p 8501:8501 clinexa-healthcare
-```
-
-### Hugging Face Spaces Deployment
-1. Create a new Space on [Hugging Face](https://huggingface.co/spaces) selecting the **Streamlit** SDK.
-2. Push the CliNexa repository files.
-3. The Space will automatically detect `requirements.txt` and `app/main.py` and deploy the application.
-
----
-
-## 11. Project Directory Structure
+### 5. Project Directory Structure
 
 ```
 CliNexa/
@@ -376,7 +309,7 @@ CliNexa/
 
 ---
 
-## 12. Author & License
+### 6. Author & License
 
 **Author:** Priyanka Ahirwar  
 **License:** Released under the [MIT License](LICENSE). Copyright (c) 2026 Priyanka Ahirwar.
