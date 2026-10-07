@@ -1,0 +1,23 @@
+# American Diabetes Association Clinical Reference: Metabolic & Glycemic Health
+
+Metabolic health encompasses the physiological processes through which the body converts nutrients into cellular energy and regulates glucose homeostasis.
+
+## Diagnostic and Laboratory Thresholds
+- Normal Fasting Blood Glucose: 70 to 99 mg/dL.
+- Impaired Fasting Glucose (Prediabetes Indicator): 100 to 125 mg/dL.
+- Diabetic Range (Confirmation requires repeated laboratory testing): 126 mg/dL or higher.
+- Hemoglobin A1c (HbA1c): Reflects average glycemia over the previous 2 to 3 months (erythrocyte lifespan).
+  - Normal: Less than 5.7%.
+  - Prediabetes Range: 5.7% to 6.4%.
+  - Diabetes Range: 6.5% or higher on confirmed venous blood sample.
+
+## Characteristic Symptoms of Elevated Blood Sugar
+When blood glucose levels exceed renal reabsorptive capacity (typically above 180 mg/dL), excess glucose spills into urine:
+- Polydipsia: Unquenchable increased thirst due to osmotic dehydration.
+- Polyuria: Frequent and voluminous urination.
+- Polyphagia: Persistent hunger due to impaired cellular glucose uptake.
+- Asthenia / Fatigue: Cellular energy deficit caused by impaired insulin-mediated glycogen synthesis.
+- Blurred Vision: Osmotic fluid shifts within the ocular lens.
+
+## Lifestyle Intervention Principles
+Lifestyle management focuses on reducing glycemic load through complex carbohydrates rich in beta-glucan and resistant starch, pairing carbohydrates with lean protein and healthy fats, daily walking after meals to increase GLUT4 glucose transporter translocation independent of insulin, and consistent weight moderation.

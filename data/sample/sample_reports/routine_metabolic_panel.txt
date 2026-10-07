@@ -1,0 +1,55 @@
+================================================================================
+                    METROPOLITAN CLINICAL LABORATORY REPORT
+================================================================================
+PATIENT NAME: Anonymous Patient Reference #8492
+ORDERING PHYSICIAN: Dr. Sarah Bennett, MD (Internal Medicine)
+COLLECTION DATE: 12-Oct-2025
+SPECIMEN TYPE: Fasting Venous Serum & Whole Blood
+STATUS: FINAL VERIFIED REPORT
+
+--------------------------------------------------------------------------------
+1. COMPREHENSIVE METABOLIC PANEL
+--------------------------------------------------------------------------------
+Test Name                      Result       Reference Range      Units     Status
+--------------------------------------------------------------------------------
+Fasting Blood Glucose          142          70 - 99              mg/dL     HIGH
+Hemoglobin A1c (HbA1c)         7.4          4.0 - 5.6            %         HIGH
+Serum Creatinine               1.05         0.60 - 1.20          mg/dL     Normal
+Blood Urea Nitrogen (BUN)      16           7 - 20               mg/dL     Normal
+Serum Sodium                   139          135 - 145            mmol/L    Normal
+Serum Potassium                4.2          3.5 - 5.0            mmol/L    Normal
+Alanine Aminotransferase (ALT) 32           7 - 56               U/L       Normal
+Aspartate Aminotransferase(AST)28           10 - 40              U/L       Normal
+
+--------------------------------------------------------------------------------
+2. LIPID PANEL
+--------------------------------------------------------------------------------
+Total Cholesterol              224          125 - 200            mg/dL     HIGH
+LDL Cholesterol                142          50 - 100             mg/dL     HIGH
+HDL Cholesterol                44           40 - 80              mg/dL     Normal
+Serum Triglycerides            190          50 - 150             mg/dL     HIGH
+
+--------------------------------------------------------------------------------
+3. HEMATOLOGY (CBC)
+--------------------------------------------------------------------------------
+Hemoglobin                     14.2         12.0 - 17.0          g/dL      Normal
+White Blood Cell Count (WBC)   6.8          4.5 - 11.0           x10^3/uL  Normal
+Platelet Count                 245          150 - 450            x10^3/uL  Normal
+
+--------------------------------------------------------------------------------
+4. CURRENT MEDICATIONS ON FILE
+--------------------------------------------------------------------------------
+- Metformin 500mg PO Twice Daily with Meals
+- Lisinopril 10mg PO Once Daily in Morning
+
+--------------------------------------------------------------------------------
+5. CLINICAL OBSERVATIONS & SYMPTOMS REPORTED
+--------------------------------------------------------------------------------
+Patient reports ongoing generalized fatigue, persistent thirst, and increased
+frequency of nocturnal urination over the past 4 weeks. Blood pressure measured
+at triage: 134/86 mmHg.
+
+CLINICAL IMPRESSION:
+Suboptimal glycemic control indicated by elevated fasting glucose and HbA1c.
+Concurrent mixed dyslipidemia noted. Recommend clinical review and nutrition consultation.
+================================================================================

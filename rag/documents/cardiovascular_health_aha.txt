@@ -1,0 +1,17 @@
+# American Heart Association & WHO Clinical Reference: Cardiovascular Wellness
+
+Cardiovascular health refers to the optimal functioning of the heart, blood vessels, and systemic arterial circulation. 
+
+## Key Risk Indicators and Prevention
+The American Heart Association emphasizes "Life's Essential 8" as key lifestyle and biometric measures for cardiovascular health:
+1. Healthy Diet: Prioritizing whole vegetables, fruits, legumes, lean proteins, and unsaturated fatty acids while avoiding ultra-processed foods, added sugars, and trans fats.
+2. Regular Physical Activity: Achieving at least 150 minutes of moderate aerobic exercise or 75 minutes of vigorous exercise each week.
+3. Nicotine Avoidance: Smoking cessation reduces acute endothelial injury and lowers long-term arterial plaque accumulation.
+4. Restorative Sleep: 7 to 9 hours of uninterrupted nightly sleep promotes nighttime blood pressure dipping and hormonal balance.
+5. Healthy Weight: Maintaining a Body Mass Index (BMI) within the healthy reference envelope (18.5 - 24.9 kg/m²) reduces cardiac workload.
+6. Blood Lipid Control: Maintaining LDL (Low-Density Lipoprotein) cholesterol under 100 mg/dL and non-HDL cholesterol within recommended targets.
+7. Blood Glucose Regulation: Fasting blood glucose below 100 mg/dL prevents diabetic macrovascular and microvascular microangiopathy.
+8. Blood Pressure Regulation: Keeping systolic blood pressure below 120 mmHg and diastolic below 80 mmHg minimizes arterial wall stress.
+
+## Warning Signs and Evaluation
+Chest pressure, radiating pain to the jaw or left shoulder, shortness of breath on mild exertion, and palpitations are clinical signals requiring prompt medical assessment by an emergency healthcare professional.

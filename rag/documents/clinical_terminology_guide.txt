@@ -1,0 +1,24 @@
+# CliNexa Clinical Terminology & Laboratory Lexicon Guide
+
+This glossary clarifies common medical and diagnostic terminologies into patient-friendly English explanations.
+
+## Hematology & Blood Counts
+- Hemoglobin (Hb): The iron-containing protein in red blood cells that transports oxygen throughout body tissues. Low levels indicate anemia.
+- Hematocrit (Hct): The volume percentage of red blood cells in whole blood.
+- White Blood Cell Count (WBC): Immune cells that respond to microbial infections and inflammatory triggers.
+- Platelets (Thrombocytes): Cell fragments crucial for normal blood clotting and vascular repair.
+
+## Metabolic and Organ Function Tests
+- Serum Creatinine: A metabolic byproduct of muscle creatine breakdown cleared exclusively by renal glomeruli. Elevated levels suggest reduced Glomerular Filtration Rate (GFR).
+- Blood Urea Nitrogen (BUN): Measures urea nitrogen produced by hepatic protein catabolism.
+- Alanine Aminotransferase (ALT) & Aspartate Aminotransferase (AST): Hepatic intracellular enzymes; elevated serum levels signal hepatocellular stress or injury.
+- Thyroid Stimulating Hormone (TSH): Pituitary hormone that stimulates the thyroid gland to produce thyroxine (T4). Elevated TSH usually reflects an underactive thyroid (hypothyroidism).
+- Fasting Lipid Profile: Measures Total Cholesterol, High-Density Lipoprotein (HDL - cardioprotective "good" cholesterol), Low-Density Lipoprotein (LDL - atherogenic "bad" cholesterol), and Triglycerides.
+
+## Common Clinical Prefixes and Suffixes
+- "Dys-": Difficult, painful, or abnormal (e.g., Dyspnea = difficulty breathing; Dysphagia = difficulty swallowing).
+- "Hyper-": Elevated, above normal (e.g., Hypertension = high blood pressure; Hyperglycemia = high blood sugar).
+- "Hypo-": Low, below normal (e.g., Hypotension = low blood pressure; Hypoglycemia = low blood sugar).
+- "-itis": Inflammation (e.g., Bronchitis = inflammation of bronchial tubes; Arthritis = inflammation of joint structures).
+- "-megaly": Abnormal enlargement (e.g., Cardiomegaly = enlargement of the cardiac silhouette/heart).
+- "-uria": Pertaining to urine or urination (e.g., Polyuria = excessive volume of urine; Hematuria = presence of blood in urine).

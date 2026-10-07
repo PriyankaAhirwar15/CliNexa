@@ -1,0 +1,20 @@
+# National Institutes of Health (NIH): Dietary Fiber & Micronutrient Physiology
+
+Dietary fiber consists of non-digestible soluble and insoluble carbohydrates and lignin intrinsically present in plants.
+
+## Physiological Functions of Soluble Fiber
+Soluble fibers (found in rolled oats, barley, chia seeds, legumes, psyllium, and citrus fruits) dissolve in water to form a viscous gel within the gastrointestinal tract:
+1. Glycemic Blunting: Delays gastric emptying and slows enzymatic starch digestion, preventing rapid postprandial blood glucose spikes.
+2. Lipid Reduction: Binds dietary bile acids in the intestine, forcing the liver to utilize circulating LDL cholesterol to synthesize new bile, thereby lowering serum LDL cholesterol.
+3. Prebiotic Fermentation: Colon microflora ferment soluble fibers into Short-Chain Fatty Acids (SCFAs), notably acetate, propionate, and butyrate, which nourish colonocytes and reduce systemic inflammation.
+
+## Physiological Functions of Insoluble Fiber
+Insoluble fibers (found in whole wheat, bran, vegetables, and brown rice) do not dissolve in water:
+1. Intestinal Transit: Increases stool bulk and stimulates regular intestinal peristalsis, preventing constipation.
+2. Satiety Signaling: Enhances mechanical gastric distension, triggering vagal satiety signals and the release of gastrointestinal hormones peptide YY (PYY) and GLP-1.
+
+## Recommended Daily Fiber Targets
+Adult females: 25 to 28 grams per day.
+Adult males: 32 to 38 grams per day.
+Average intake in Western populations often falls below 15 grams per day, creating a significant "fiber gap."
+Hydration must increase simultaneously when elevating dietary fiber to prevent intestinal cramping or compaction.

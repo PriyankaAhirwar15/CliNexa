@@ -1,0 +1,20 @@
+# Centers for Disease Control and Prevention (CDC): Hypertension & Hemodynamics
+
+Hypertension, or persistently elevated systemic arterial pressure, is a primary modifiable risk factor for cerebrovascular events, coronary artery disease, and chronic kidney disease.
+
+## Clinical Blood Pressure Classifications (ACC/AHA Guidelines)
+- Normal: Systolic < 120 mmHg AND Diastolic < 80 mmHg.
+- Elevated: Systolic 120–129 mmHg AND Diastolic < 80 mmHg.
+- Stage 1 Hypertension: Systolic 130–139 mmHg OR Diastolic 80–89 mmHg.
+- Stage 2 Hypertension: Systolic ≥ 140 mmHg OR Diastolic ≥ 90 mmHg.
+- Hypertensive Crisis: Systolic > 180 mmHg and/or Diastolic > 120 mmHg (requires urgent clinical evaluation).
+
+## Key Lifestyle Risk Factors
+1. Excess Dietary Sodium: High intake of processed and preserved foods increases intravascular fluid volume and peripheral vascular resistance. The recommended maximum intake is under 2,300 mg/day (ideally < 1,500 mg/day for individuals with elevated pressure).
+2. Suboptimal Dietary Potassium: Potassium acts as an antagonist to sodium by promoting natriuresis and arterial smooth muscle relaxation. Rich sources include spinach, bananas, sweet potatoes, and avocados.
+3. Sedentary Behavior: Regular aerobic conditioning enhances endothelial nitric oxide bioavailability, inducing vasodilation.
+4. Chronic Sympathetic Overactivation & Sleep Apnea: Unfragmented sleep is critical; obstructive sleep apnea is a major secondary cause of refractory hypertension.
+5. Alcohol and Nicotine: Both substances induce acute vasoconstriction and chronic endothelial stiffness.
+
+## Dietary Approaches to Stop Hypertension (DASH)
+The DASH dietary pattern emphasizes whole grains, fruits, vegetables, low-fat dairy products, and moderate portions of lean poultry and fish, while significantly curbing saturated fats, red meats, and sweets.

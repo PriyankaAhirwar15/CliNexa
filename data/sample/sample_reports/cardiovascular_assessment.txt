@@ -1,0 +1,44 @@
+================================================================================
+                    CARDIAC SPECIALTY & VASCULAR CLINIC REPORT
+================================================================================
+PATIENT IDENTIFIER: Demo Patient Case #1105
+EVALUATION: Outpatient Cardiovascular Follow-Up
+CLINICIAN: Dr. Robert Miller, FACC
+DATE: 08-Nov-2025
+
+--------------------------------------------------------------------------------
+1. HEMODYNAMIC VITALS & BIOMETRICS
+--------------------------------------------------------------------------------
+Systolic Blood Pressure:       146 mmHg (Stage 2 Elevation Indicator)
+Diastolic Blood Pressure:      92 mmHg
+Resting Heart Rate:            78 bpm (Regular Sinus Rhythm)
+BMI:                           29.2 kg/m2 (Overweight envelope)
+
+--------------------------------------------------------------------------------
+2. TARGETED LABORATORY VALUES
+--------------------------------------------------------------------------------
+Total Cholesterol:             238 mg/dL (Elevated)
+LDL Cholesterol:               158 mg/dL (High atherogenic risk)
+HDL Cholesterol:               38 mg/dL (Borderline low)
+Serum Triglycerides:           210 mg/dL (Elevated)
+Serum Creatinine:              1.10 mg/dL (Within normal limits)
+Fasting Blood Glucose:         96 mg/dL (Normal)
+
+--------------------------------------------------------------------------------
+3. CURRENT PHARMACOTHERAPY
+--------------------------------------------------------------------------------
+- Atorvastatin 20mg Once Daily at Bedtime
+- Amlodipine 5mg Once Daily
+- Aspirin 81mg Daily
+
+--------------------------------------------------------------------------------
+4. CLINICAL OBSERVATIONS
+--------------------------------------------------------------------------------
+Patient describes mild exertional shortness of breath when climbing 2 flights of
+stairs and occasional lightheadedness. Denies acute substernal chest pain.
+Lungs are clear to bilateral auscultation. No peripheral edema noted.
+
+RECOMMENDATION:
+Further medical evaluation appropriate. Reinforce DASH dietary sodium restriction,
+structured aerobic exercise 30 minutes daily, and follow-up lipid screening in 8 weeks.
+================================================================================
