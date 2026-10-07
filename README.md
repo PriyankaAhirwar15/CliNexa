@@ -225,7 +225,7 @@ All 15 comprehensive unit tests across nutrition, vision, risk DNN, NLP, and RAG
 
 ---
 
-### 5. Project Directory Structure
+## 9. Project Directory Structure
 
 ```
 CliNexa/
@@ -309,7 +309,7 @@ CliNexa/
 
 ---
 
-### 6. Author & License
+## 10. Author & License
 
 **Author:** Priyanka Ahirwar  
 **License:** Released under the [MIT License](LICENSE). Copyright (c) 2026 Priyanka Ahirwar.
