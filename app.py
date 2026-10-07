@@ -403,13 +403,13 @@ with gr.Blocks(title="CliNexa — AI Healthcare Intelligence Platform", theme=gr
     gr.Markdown("Built by **Priyanka Ahirwar** • Released under MIT License • Educational & Clinical Decision Support Demonstration")
 
 if __name__ == "__main__":
-    # On HF Spaces SPACE_ID is always set — let Gradio manage networking
-    if os.environ.get("SPACE_ID"):
-        demo.launch()
-    else:
-        demo.launch(
-            server_name="0.0.0.0",
-            server_port=int(os.environ.get("PORT", 7860)),
-            share=False,
-        )
+    # show_api=False disables gradio-client schema generation which crashes
+    # on ZeroGPU due to a bool-in-schema bug in gradio_client/utils.py
+    # server_name="0.0.0.0" required so ZeroGPU proxy can reach the container
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=7860,
+        show_api=False,
+        share=False,
+    )
 
